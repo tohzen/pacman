@@ -121,13 +121,13 @@
             sonic.x--;
         }
 
-        else if(e.keyCode == 39 && world[sonic.y][sonic.x-1] !=2){
+        else if(e.keyCode == 39 && world[sonic.y][sonic.x+1] !=2){
             sonic.x ++;
         }
         else if(e.keyCode == 38 && world[sonic.y][sonic.x-1] !=2){
             sonic.y --;
         }
-        else if(e.keyCode == 40 && world[sonic.y][sonic.x-1] !=2){
+        else if(e.keyCode == 40 && world[sonic.y][sonic.x+1] !=2){
             sonic.y ++;
         }
         if(world[sonic.y][sonic.x]==1){
